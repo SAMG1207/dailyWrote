@@ -24,13 +24,5 @@ class Pass{
         return $this->pdo = null;
     }
 
-    public function giveMeG($variable){
-        $sql="SELECT clav FROM claves WHERE donde = ?";
-        $stmt=$this->connect()->prepare($sql);
-        $stmt->bindValue(1, $variable);
-        $stmt->execute();
-        $pass = $stmt->fetch();
-        $this->close();
-        return $pass["clav"];
-    }
+
 }
