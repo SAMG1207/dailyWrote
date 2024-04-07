@@ -1,0 +1,23 @@
+
+
+#searchForm {
+    position: relative;
+}
+
+#usersAsWrite {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+#userAsWrite:hover{
+    background-color: #083079;
+    
+}
+
