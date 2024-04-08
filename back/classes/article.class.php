@@ -9,13 +9,13 @@ Class Article extends Connection{
     private $pass;
     private $translate;
    private $sT = array(
-        "child porn info",
+        
         "porn info",
         "naked pictures",
-        "children porn",
-        "children naked",
-        "teen naked",
-        "sell teen",
+        
+        
+        
+        
         "video info"
     );
     
